@@ -1,0 +1,17 @@
+.profile__info{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-gap: 20px;
+    grid-template-areas: 'i t';
+}
+.profile__info img {
+    grid-area: i;
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+}
+.text{
+    font-size: 20px;
+    color: white;
+    grid-area: t;
+}

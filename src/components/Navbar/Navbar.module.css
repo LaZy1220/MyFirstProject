@@ -1,0 +1,13 @@
+.nav{
+    grid-area: n;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.nav ul li {
+    list-style-type: none;
+}
+.nav a {
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+}

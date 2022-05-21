@@ -3,11 +3,11 @@ const NavBar = () => {
   return (
     <nav className={s.nav}>
       <ul>
-        <li><a href="#s">Profile</a></li>
-        <li><a href="#s">Message</a></li>
-        <li><a href="#s">News</a></li>
-        <li><a href="#s">Music</a></li>
-        <p><a href="#s">Setting</a></p>
+        <li><a href="profile">Profile</a></li>
+        <li><a href="dialogs">Message</a></li>
+        <li><a href="news">News</a></li>
+        <li><a href="music">Music</a></li>
+        <p><a href="settings">Settings</a></p>
       </ul>
     </nav>
   )
